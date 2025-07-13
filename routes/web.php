@@ -19,3 +19,5 @@ use illuminate\Support\Facades\Route;
 Route::get('/newHome.html', function () {
     return view('Home');
 });
+
+?>
