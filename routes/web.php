@@ -7,9 +7,7 @@ Route::get('/', function () {
 });
 
 
-<?php
-
-use Illuminate\Support\Facades\Route;
+use illuminate\Support\Facades\Route;
 
 Route::get('/Home.html', function () {
     return view('Home');
