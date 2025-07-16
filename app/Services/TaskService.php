@@ -68,7 +68,6 @@ class TaskService
             $this->save($tasks);
             return true;
         }
-
         return false;
     }
 
