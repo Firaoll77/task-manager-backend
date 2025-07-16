@@ -7,8 +7,6 @@ Route::get('/', function () {
 });
 
 
-use illuminate\Support\Facades\Route;
-
-
+use
 
 ?>
