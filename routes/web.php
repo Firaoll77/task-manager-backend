@@ -7,6 +7,4 @@ Route::get('/', function () {
 });
 
 
-use
-
 ?>
