@@ -9,7 +9,6 @@ Route::get('/', function () {
 
 use illuminate\Support\Facades\Route;
 
-Route::get('/Home.html', function () {
-    
+Route::get
 
 ?>
