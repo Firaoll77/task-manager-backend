@@ -12,7 +12,6 @@ class TaskService
         if (!Storage::exists($this->storageFile)) {
             return [];
         }
-
         $tasks = json_decode(Storage::get($this->storageFile), true);
         return $tasks;
     }
