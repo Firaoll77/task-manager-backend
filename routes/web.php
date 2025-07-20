@@ -8,8 +8,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-// Define a named route for showing a post
 Route::get('/post/{id}', [PostController::class, 'show'])->name('post.show');
 
 // Define a named route for creating a post
