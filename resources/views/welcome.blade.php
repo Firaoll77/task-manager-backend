@@ -8,5 +8,18 @@
        <script src="{{ asset('js/app.js') }}"></script>
 
        <h1>Welcome To Task Manager backend </h1>
+
+<a href="{{ route('post.create') }}">Create New Post</a>
+
+{{-- Example link to show a post with ID 5 --}}
+<a href="{{ route('post.show', ['id' => 5]) }}">View Post</a>
+
+{{-- Example form using the named route to store a post --}}
+<form action="{{ route('post.store') }}" method="POST">
+    @csrf
+    <input type="text" name="title" placeholder="Post Title">
+    <button type="submit">Submit</button>
+</form>
+
     </body>
 </html>
